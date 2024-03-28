@@ -14,12 +14,12 @@ const handleSubmit = event => {
 
     // send data 
 
-    fetch('https://fashion-apparel-server-navy.vercel.app/product', {
+    fetch('  ', {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(newProduct)
+      body: JSON.stringify(addTask)
     })
       .then((res) => res.json())
       .then((data) => {

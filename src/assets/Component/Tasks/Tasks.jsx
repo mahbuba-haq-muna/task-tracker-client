@@ -8,7 +8,7 @@ const Tasks = () => {
                 <p>task-1</p>
             </div>
             <div className="w-48 bg-purple-100">
-                <h3 className="bg-purple-500 p-2 rounded-t-md text-white text-center font-semibold">Pending</h3>
+                <h3 className="bg-purple-500 p-2 rounded-t-md text-white text-center font-semibold">on going</h3>
                 <p>task-1</p>
             </div>
             <div className="w-48 bg-purple-100">

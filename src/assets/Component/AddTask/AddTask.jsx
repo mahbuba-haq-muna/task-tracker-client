@@ -5,11 +5,11 @@ const handleSubmit = event => {
 
     const title = form.title.value;
     const description = form.description.value;
-    const price = form.price.value;
+    const assignee = form.assignee.value;
     const rating = form.rating.value;
     const photo = form.photo.value;
 
-    const addTask = { name, brand, type, description, price, rating, photo };
+    const addTask = { title, description, assignee, rating, photo };
     console.log(addTask);
 
     // send data 

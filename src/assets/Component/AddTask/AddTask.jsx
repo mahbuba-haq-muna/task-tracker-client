@@ -26,10 +26,12 @@ const handleSubmit = event => {
         console.log(data);
         if (data.insertedId) {
           Swal.fire({
-            title: 'Success!',
-            text: 'product Added Successfully',
-            icon: 'success',
-            confirmButtonText: 'Cool'
+            position: "top-end",
+            icon: "success",
+            title: "Your work has been saved",
+            showConfirmButton: false,
+            timer: 1500
+          
           })
         }
       })

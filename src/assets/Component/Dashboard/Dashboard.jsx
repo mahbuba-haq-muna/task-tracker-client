@@ -3,7 +3,7 @@
 const Dashboard = () => {
     return (
         <div>
-            Dashboard layout 2
+            Dashboard  2
         </div>
     );
 };

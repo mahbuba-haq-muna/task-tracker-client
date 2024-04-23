@@ -3,7 +3,7 @@ import React from 'react';
 const Social = () => {
     return (
         <div>
-            social login
+            social login and registration
             
         </div>
     );
